@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-setPayload" version="SHA-512:fd19ed26a493e44444a27b8218841696d21f06a50215a2c26b950323c3c2ab06dedb75acc34ff715efce9b7fdc4b442af22ae3a1bfd7c2d893f19721e5cd886c"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:e5b1188172dfe52cb140071223c66e9624738ec4d010fc6ca6cf1f556d8897c89bd43b7ed4b312e55fda886372ba099024cef8b6b2c6d6aa6330445c1e1a94ce"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

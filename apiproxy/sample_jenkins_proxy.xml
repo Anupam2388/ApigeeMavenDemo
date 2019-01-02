@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="sample_jenkins_proxy">
+    <Basepaths>/jenkinsdemo</Basepaths>
+    <Basepaths>/jenkinsdemo</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1544475077049</CreatedAt>
+    <CreatedBy>salokheanup@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Jenkins-demo</DisplayName>
+    <LastModifiedAt>1544475077049</LastModifiedAt>
+    <LastModifiedBy>salokheanup@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:7dd052bc1c27a0268403a1f460c0abcec386a671526954ee5c020f0e1ce441c823ac9f342ba31e8f7e350a9579dee370d3a20092697aac1cc6c1ed93d55a0a01:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-setPayload</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
