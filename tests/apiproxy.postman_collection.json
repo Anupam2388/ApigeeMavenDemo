@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "be824cd5-9d65-4d9d-b6ab-8edd6ac2b6e8",
+		"name": "JenkinsDemo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://salokheanup-19713-eval-test.apigee.net/jenkinsdemo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "01bd1986-503a-4dd3-a871-0ee1d2c723ba",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"",
+							"pm.test(\"Response body\", function () {",
+							"    pm.expect(jsonData.message).to.eql(\"The request was fulfilled.\");",
+							"});",
+							"",
+							"pm.test(\"Response status code\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://salokheanup-19713-eval-test.apigee.net/jenkinsdemo",
+					"protocol": "http",
+					"host": [
+						"salokheanup-19713-eval-test",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"jenkinsdemo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
