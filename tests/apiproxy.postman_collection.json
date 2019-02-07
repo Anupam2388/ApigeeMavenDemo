@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://salokheanup-19713-eval-test.apigee.net/jenkinsdemo",
+			"name": "http://anup-eval-test.apigee.net/jenkinsdemo",
 			"event": [
 				{
 					"listen": "test",
@@ -35,10 +35,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://salokheanup-19713-eval-test.apigee.net/jenkinsdemo",
+					"raw": "http://anup-eval-test.apigee.net-test.apigee.net/jenkinsdemo",
 					"protocol": "http",
 					"host": [
-						"salokheanup-19713-eval-test",
+						"anup-eval-test",
 						"apigee",
 						"net"
 					],
