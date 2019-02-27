@@ -15,12 +15,18 @@ Follow to below steps to build and deploy the proxy in Apigee Edge.
 2. Run the below command from the same folder which has pom.xml file
 
 
-    Syntax :   
+    Syntax :  
+    
     mvn clean install -Ptest -Dorg={youOrg} -Dusername={edge_user} -Dpassword={edge_password}
+    
         - {youOrg} is the name of your organization
+        
         - {edge_user} is the username with appropriate deploy permission.
+        
         - {edge_password} password to authenticate user.
+    
     Example :
+    
     mvn clean install -Ptest -Dorg=anup-org -Dusername=anup@sample.com -Dpassword=secretid    
 
 
